@@ -1,0 +1,130 @@
+
+  body{
+    background:url("https://i.ytimg.com/vi/wAtJdSjBcHM/maxresdefault.jpg");
+    position:relative;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  a{
+    color:black;
+}
+  h1{
+    position:relative;
+    text-align:center;
+    background-color:rgba(0,0,0,.8);
+    color: white;
+    margin:0;
+    background:cover;
+    padding:30px 0px 20px 0px;
+    font-size: 55px;
+
+  }
+.navBar{
+  text-align:inherit;;
+  display:inline;
+  color:black;
+  font-size: 30px;
+  text-decoration: none;
+  padding:30px;
+
+}
+#navBar{
+  background: white;
+  border:4px solid black;
+  width:100%;
+}
+.shows{
+
+}
+#shows{
+  margin-top: 10px;
+  background-color:rgba(0,0,0,.8);
+}
+#showHead{
+color:white;
+font-size:20px;
+text-align: center;
+margin:20px;
+border-bottom: 2px solid white;
+}
+.showList{
+padding:10px;
+color:white;
+}
+  .firstPar{
+
+    padding: 0;
+    margin:0;
+    width:100%;
+  }
+  #firstPar{
+    margin-top: 10px;
+    background-color:rgba(0,0,0,.8);
+  }
+  video{
+    z-index:3;
+    background:black;
+  }
+
+  .bodPar{
+    font-family: 'Architects Daughter', cursive;
+    font-size:2.5em;
+    font-align:center;
+    color:white;
+    margin:20px;
+    padding:20px;
+  }
+
+  .topNotch{
+    font-size:70px;
+    text-align:left;
+    color:white;
+    position:relative;
+    padding:0px, 20px, 0px, 0px;
+    margin: 0 0 0 42px;
+    font-family: 'Pacifico', cursive;
+    }
+  #welcome{
+    font-size: 50px;
+    color:white;
+    margin:20px;
+    border-bottom: 2px solid white;
+  }
+  .foot{
+    font-size:25px;
+    background-color:white;
+    color:black;
+    position:relative;
+    display:inline;
+    text-align:center;
+    padding:40px 43px 40px 20px;
+    font-family: 'Bangers', cursive;
+
+  }
+  .onMic{
+    width:75%;
+    border: 2px solid white;
+    margin: 30px ;
+  }
+  .studio{
+    width:75%;
+    border:2px solid white;
+    margin:30px;
+  }
+  .fbLogo{
+    width:30px;
+    margin:90px 0px 0px 10px;
+  }
+  .twitLogo{
+    width:30px;
+  }
+  .mailLogo{
+    width:30px;
+  }
+  .scLogo{
+    width:60px;
+
+  }
+  .firstPar{
+    float:left;
+  }
