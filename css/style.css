@@ -1,7 +1,7 @@
 
   body{
     background:url("https://i.ytimg.com/vi/wAtJdSjBcHM/maxresdefault.jpg");
-    position:relative;
+    background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
   }
@@ -19,26 +19,33 @@
     font-size: 55px;
 
   }
-.navBar{
-  text-align:inherit;;
-  display:inline;
-  color:black;
+  .navBar{
+    text-align:inherit;
+    display:inline;
+  }
+ .navBar a{
+   color:black;
   font-size: 30px;
   text-decoration: none;
-  padding:30px;
-
+  padding:5% 6%;
+}
+ .navBar a:hover{
+  padding:.5% 1.5% 1.5% 1.5%;
+  background-color:black;
+  color:white;
+  margin: 4.5%  4.5% 3.5% 4.5%;
+  text-decoration: none;
 }
 #navBar{
   background: white;
   border:4px solid black;
   width:100%;
 }
-.shows{
 
-}
 #shows{
   margin-top: 10px;
   background-color:rgba(0,0,0,.8);
+  width:100%;
 }
 #showHead{
 color:white;
@@ -50,29 +57,37 @@ border-bottom: 2px solid white;
 .showList{
 padding:10px;
 color:white;
+
 }
   .firstPar{
 
-    padding: 0;
-    margin:0;
-    width:100%;
+padding: 10px;
+width:100%;
   }
   #firstPar{
     margin-top: 10px;
     background-color:rgba(0,0,0,.8);
   }
-  video{
-    z-index:3;
-    background:black;
-  }
 
+#videoBod{
+    background-color:rgba(0,0,0,.8);
+    width:100%;
+  }
+#videoHead{
+  color:white;
+  font-size:20px;
+  text-align: center;
+  margin:10px;
+  border-bottom: 2px solid white;
+
+}
   .bodPar{
     font-family: 'Architects Daughter', cursive;
     font-size:2.5em;
     font-align:center;
     color:white;
-    margin:20px;
-    padding:20px;
+    margin:10px;
+    padding:10px;
   }
 
   .topNotch{
@@ -81,7 +96,7 @@ color:white;
     color:white;
     position:relative;
     padding:0px, 20px, 0px, 0px;
-    margin: 0 0 0 42px;
+    margin: 0 ;
     font-family: 'Pacifico', cursive;
     }
   #welcome{
@@ -97,34 +112,80 @@ color:white;
     position:relative;
     display:inline;
     text-align:center;
-    padding:40px 43px 40px 20px;
+    width:100%;
     font-family: 'Bangers', cursive;
+    padding:1%;
+}
+/*Shirt Ad*/
+#shirthead{
+  color:white;
+  font-size:20px;
+  text-align: center;
+  margin:10px;
+  padding:0px;
+  border-bottom: 2px solid white;
+}
+#shirts{
+  width:100%;
+}
+#shirt{
+  margin:0px;
+  background-color:rgba(0,0,0,.8);
+  width:100%;
+  border:2px solid white;
+}
+/*Footer*/
+.abc{
+  background: white;
+  border:4px solid black;
+}
+.fbLogo{
+  width:30px;
 
-  }
+}
+.twitLogo{
+  width:30px;
+}
+.mailLogo{
+  width:30px;
+}
+.scLogo{
+  width:60px;
+
+}
+/*photos bottom*/
+#photorow{
+  background-color:rgba(0,0,0,.8);
+  padding:10px;
+  margin:110% 0 30px 0;
+  border:2px solid white;
+}
   .onMic{
-    width:75%;
+    width:90%;
+    height:180px;
     border: 2px solid white;
     margin: 30px ;
   }
   .studio{
-    width:75%;
+    width:90%;
+    height:180px;
     border:2px solid white;
     margin:30px;
   }
-  .fbLogo{
-    width:30px;
-    margin:90px 0px 0px 10px;
-  }
-  .twitLogo{
-    width:30px;
-  }
-  .mailLogo{
-    width:30px;
-  }
-  .scLogo{
-    width:60px;
+.wormFriend{
+  width:90%;
+  height:180px;
+  border:2px solid white;
+  margin:30px;
+}
+.film{
+  width:90%;
+  height:180px;
+  border:2px solid white;
+  margin:30px;
 
-  }
+}
   .firstPar{
     float:left;
+
   }
