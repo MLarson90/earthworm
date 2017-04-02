@@ -115,6 +115,9 @@ a{
   width:100%;
   border:2px solid white;
 }
+#arch{
+  width:100%;
+}
 /*Footer*/
 .abc{
   background-color:white;
@@ -132,7 +135,7 @@ a{
   width:30px;
 }
 .scLogo{
-  width:60px;
+  width:30px;
 }
 /*photos bottom*/
 #photorow{
@@ -168,7 +171,7 @@ a{
 /*Phone screen*/
 @media (max-width: 600px){
 body{
-  background-position: top;
+
 }
 #photorow{
   background-color:rgba(0,0,0,.8);
