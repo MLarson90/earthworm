@@ -2,48 +2,39 @@
 body{
   background: black;
 }
-a{
-  color:black;
-}
 
 .navBar{
   text-align:inherit;
   display:inline;
 }
 .navBar a{
-  color:black;
+  color:white;
+  text-shadow: -1px 1px black;
   font-size: 30px;
   text-decoration: none;
   padding:5% 6%;
 }
-.navBar a:hover{
+/*.navBar a:hover{
   padding:.5% 1.5% 1.5% 1.5%;
-  /*background-color: rgba(50,50,50,.3);*/
   color:white;
   margin: 4.5%  4.5% 3.5% 4.5%;
   text-decoration: none;
-}
+}*/
 #navBar{
-  /*background: rgba(70,70,70,.3);*/
   position:fixed;
   width:100%;
   z-index:2;
 }
-#shows{
-  margin-top: 10px;
-  background-color:rgba(0,0,0,.8);
-  width:100%;
-}
-#showHead{
+.showList a{
   color:white;
-  font-size:20px;
-  text-align: center;
-  margin:20px;
-  border-bottom: 2px solid white;
+  text-decoration: none;
 }
 .showList{
-  padding:10px;
+  text-align: center;
+  margin: 30px;
+  padding:100px;
   color:white;
+  font-size:20px;
 }
 .firstPar{
   padding: 10px;
@@ -59,9 +50,9 @@ a{
 }
 #videoHead{
   color:white;
-  font-size:20px;
+  font-size:40px;
   text-align: center;
-  margin:10px;
+  padding-top:0px;
   border-bottom: 2px solid white;
 }
 .bodPar{
@@ -98,24 +89,18 @@ a{
   padding:1.2% 3%;
 }
 /*Shirt Ad*/
-#shirthead{
-  color:white;
-  font-size:20px;
-  text-align: center;
-  margin:10px;
-  padding:0px;
-  border-bottom: 2px solid white;
+
+.shirts{
+  width:50%;
+  height: 50%;
+  border: 2px solid black;
+  float:right;
 }
-#shirts{
-  width:100%;
-}
-#shirt{
-  margin:0px;
-  background-color:rgba(0,0,0,.8);
-  width:100%;
-  border:2px solid white;
-}
+
 #arch{
+  width:100%;
+}
+.onMic{
   width:100%;
 }
 /*Footer*/
@@ -136,65 +121,4 @@ a{
 }
 .scLogo{
   width:30px;
-}
-/*photos bottom*/
-#photorow{
-  background-color:rgba(0,0,0,.8);
-  padding:10px;
-  border:2px solid white;
-}
-.onMic{
-  width:100%;
-  border: 2px solid black;
-}
-.studio{
-  width:90%;
-  height:180px;
-  border:2px solid white;
-  margin:30px;
-}
-.wormFriend{
-  width:90%;
-  height:180px;
-  border:2px solid white;
-  margin:30px;
-}
-.film{
-  width:90%;
-  height:180px;
-  border:2px solid white;
-  margin:30px;
-}
-.firstPar{
-  float:left;
-}
-/*Phone screen*/
-@media (max-width: 600px){
-body{
-
-}
-#photorow{
-  background-color:rgba(0,0,0,.8);
-  padding:10px;
-  margin:110% 0 30px 0;
-  border:2px solid white;
-}
-.studio{
-  width:90%;
-  height:280px;
-  border:2px solid white;
-  margin:30px;
-}
-.wormFriend{
-  width:90%;
-  height:280px;
-  border:2px solid white;
-  margin:30px;
-}
-.film{
-  width:90%;
-  height:280px;
-  border:2px solid white;
-  margin:30px;
-}
 }
