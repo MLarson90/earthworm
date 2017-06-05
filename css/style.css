@@ -1,147 +1,117 @@
 
-  body{
-    background:url("https://i.ytimg.com/vi/wAtJdSjBcHM/maxresdefault.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-  }
-  a{
-    color:black;
+body{
+  background: black;
 }
-  h1{
-    position:relative;
-    text-align:center;
-    background-color:rgba(0,0,0,.8);
-    color: white;
-    margin:0;
-    background:cover;
-    padding:30px 0px 20px 0px;
-    font-size: 55px;
 
-  }
-  .navBar{
-    text-align:inherit;
-    display:inline;
-  }
- .navBar a{
-   color:black;
+.navBar{
+  text-align:inherit;
+  display:inline;
+}
+.navBar a{
+  color:white;
+  text-shadow: -1px 1px black;
   font-size: 30px;
   text-decoration: none;
   padding:5% 6%;
 }
- .navBar a:hover{
+/*.navBar a:hover{
   padding:.5% 1.5% 1.5% 1.5%;
-  background-color:black;
   color:white;
   margin: 4.5%  4.5% 3.5% 4.5%;
   text-decoration: none;
-}
+}*/
 #navBar{
-  background: white;
-  border:4px solid black;
+  position:fixed;
   width:100%;
+  z-index:2;
 }
-
-#shows{
-  margin-top: 10px;
-  background-color:rgba(0,0,0,.8);
-  width:100%;
-}
-#showHead{
-color:white;
-font-size:20px;
-text-align: center;
-margin:20px;
-border-bottom: 2px solid white;
+.showList a{
+  color:white;
+  text-decoration: none;
 }
 .showList{
-padding:10px;
-color:white;
-
-}
-  .firstPar{
-
-padding: 10px;
-width:100%;
-  }
-  #firstPar{
-    margin-top: 10px;
-    background-color:rgba(0,0,0,.8);
-  }
-
-#videoBod{
-    background-color:rgba(0,0,0,.8);
-    width:100%;
-  }
-#videoHead{
+  text-align: center;
+  margin: 30px;
+  padding:100px;
   color:white;
   font-size:20px;
-  text-align: center;
-  margin:10px;
-  border-bottom: 2px solid white;
-
 }
-  .bodPar{
-    font-family: 'Architects Daughter', cursive;
-    font-size:2.5em;
-    font-align:center;
-    color:white;
-    margin:10px;
-    padding:10px;
-  }
-
-  .topNotch{
-    font-size:70px;
-    text-align:left;
-    color:white;
-    position:relative;
-    padding:0px, 20px, 0px, 0px;
-    margin: 0 ;
-    font-family: 'Pacifico', cursive;
-    }
-  #welcome{
-    font-size: 50px;
-    color:white;
-    margin:20px;
-    border-bottom: 2px solid white;
-  }
-  .foot{
-    font-size:25px;
-    background-color:white;
-    color:black;
-    position:relative;
-    display:inline;
-    text-align:center;
-    width:100%;
-    font-family: 'Bangers', cursive;
-    padding:1%;
-}
-/*Shirt Ad*/
-#shirthead{
-  color:white;
-  font-size:20px;
-  text-align: center;
-  margin:10px;
-  padding:0px;
-  border-bottom: 2px solid white;
-}
-#shirts{
+.firstPar{
+  padding: 10px;
   width:100%;
 }
-#shirt{
-  margin:0px;
+#firstPar{
+  margin-top: 10px;
+  background-color:rgba(0,0,0,.8);
+}
+#videoBod{
   background-color:rgba(0,0,0,.8);
   width:100%;
-  border:2px solid white;
+}
+#videoHead{
+  color:white;
+  font-size:40px;
+  text-align: center;
+  padding-top:0px;
+  border-bottom: 2px solid white;
+}
+.bodPar{
+  font-family: 'Architects Daughter', cursive;
+  font-size:2.5em;
+  font-align:center;
+  color:white;
+  margin:10px;
+  padding:10px;
+}
+.topNotch{
+  font-size:130px;
+  text-align:center;
+  color:white;
+  position:absolute;
+  margin:30% 7% 0% 7%;
+  font-family: 'Pacifico', cursive;
+  display:none;
+}
+#welcome{
+  font-size: 50px;
+  color:white;
+  margin:20px;
+  border-bottom: 2px solid white;
+}
+.foot{
+  font-size:25px;
+  color:black;
+  position:relative;
+  display:inline;
+  text-align:center;
+  width:100%;
+  font-family: 'Bangers', cursive;
+  padding:1.2% 3%;
+}
+/*Shirt Ad*/
+
+.shirts{
+  width:50%;
+  height: 50%;
+  border: 2px solid black;
+  float:right;
+}
+
+#arch{
+  width:100%;
+}
+.onMic{
+  width:100%;
 }
 /*Footer*/
 .abc{
-  background: white;
-  border:4px solid black;
+  background-color:white;
+  color:white;
+  width: 100%;
+  border:0px 2px 2px 2px solid black;
 }
 .fbLogo{
   width:30px;
-
 }
 .twitLogo{
   width:30px;
@@ -150,42 +120,5 @@ width:100%;
   width:30px;
 }
 .scLogo{
-  width:60px;
-
+  width:30px;
 }
-/*photos bottom*/
-#photorow{
-  background-color:rgba(0,0,0,.8);
-  padding:10px;
-  margin:110% 0 30px 0;
-  border:2px solid white;
-}
-  .onMic{
-    width:90%;
-    height:180px;
-    border: 2px solid white;
-    margin: 30px ;
-  }
-  .studio{
-    width:90%;
-    height:180px;
-    border:2px solid white;
-    margin:30px;
-  }
-.wormFriend{
-  width:90%;
-  height:180px;
-  border:2px solid white;
-  margin:30px;
-}
-.film{
-  width:90%;
-  height:180px;
-  border:2px solid white;
-  margin:30px;
-
-}
-  .firstPar{
-    float:left;
-
-  }
