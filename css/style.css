@@ -1,29 +1,59 @@
 
 body{
-  background: black;
+  background: #292929;
 }
-
+.home-background{
+  background-image:url("../img/recording.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}
+#title-bio{
+  margin-top: 50px;
+  text-align: center;
+  color:#d4d2d2;
+}
+#posers{
+  text-align: center;
+  width:50%;
+  margin-left: 25%;
+}
+.about{
+  background:
+}
 .navBar{
   text-align:inherit;
   display:inline;
 }
+.nav-custom{
+  background-color: #373737;
+  border:none;
+  border-bottom: 1px solid #402b2b;
+}
+
 .navBar a{
   color:white;
-  text-shadow: -1px 1px black;
   font-size: 30px;
   text-decoration: none;
   padding:5% 6%;
 }
-/*.navBar a:hover{
-  padding:.5% 1.5% 1.5% 1.5%;
-  color:white;
-  margin: 4.5%  4.5% 3.5% 4.5%;
-  text-decoration: none;
-}*/
+.navBar a:hover{
+  color:#C09ED4;
+
+}
 #navBar{
   position:fixed;
   width:100%;
   z-index:2;
+  background: black;
+  width:100%;
+  height: 60px;
+  border-bottom: 2px solid black;
 }
 .showList a{
   color:white;
@@ -55,22 +85,38 @@ body{
   padding-top:0px;
   border-bottom: 2px solid white;
 }
+.bio-pic{
+  margin-top: 30px;
+  height:300px;
+  border:4px double grey;
+  position: relative;
+  left:50%;
+  transform: translate(-50%,0);
+}
+
+.bio-name{
+  text-align: center;
+  color: #d4d2d2;
+  margin-bottom:100px;
+}
 .bodPar{
-  font-family: 'Architects Daughter', cursive;
-  font-size:2.5em;
+  font-size:1.8em;
   font-align:center;
-  color:white;
-  margin:10px;
+  color:#d4d2d2;
+  margin:30px 10px;
   padding:10px;
 }
+.onMic{
+  width:100%;
+  position: absolute;
+  top:51px;
+}
 .topNotch{
-  font-size:130px;
-  text-align:center;
+  font-size:30px;
+  margin: 20px 20px;
   color:white;
-  position:absolute;
-  margin:30% 7% 0% 7%;
-  font-family: 'Pacifico', cursive;
   display:none;
+  font-weight: lighter;
 }
 #welcome{
   font-size: 50px;
@@ -99,9 +145,7 @@ body{
 
 #arch{
   width:100%;
-}
-.onMic{
-  width:100%;
+  height: 400px;
 }
 /*Footer*/
 .abc{
