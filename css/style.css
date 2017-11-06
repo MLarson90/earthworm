@@ -27,35 +27,12 @@ body{
 .about{
   background:
 }
-.navBar{
-  text-align:inherit;
-  display:inline;
-}
 .nav-custom{
   background-color: #373737;
   border:none;
   border-bottom: 1px solid #402b2b;
 }
 
-.navBar a{
-  color:white;
-  font-size: 30px;
-  text-decoration: none;
-  padding:5% 6%;
-}
-.navBar a:hover{
-  color:#C09ED4;
-
-}
-#navBar{
-  position:fixed;
-  width:100%;
-  z-index:2;
-  background: black;
-  width:100%;
-  height: 60px;
-  border-bottom: 2px solid black;
-}
 .showList a{
   color:white;
   text-decoration: none;
@@ -161,23 +138,4 @@ body{
 #arch{
   width:100%;
   height: 400px;
-}
-/*Footer*/
-.abc{
-  background-color:white;
-  color:white;
-  width: 100%;
-  border:0px 2px 2px 2px solid black;
-}
-.fbLogo{
-  width:30px;
-}
-.twitLogo{
-  width:30px;
-}
-.mailLogo{
-  width:30px;
-}
-.scLogo{
-  width:30px;
 }
